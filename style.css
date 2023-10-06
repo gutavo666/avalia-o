@@ -1,10 +1,38 @@
  body{
-    background-color: rgb(127, 255, 127);}
-    h1{text-align: center;}
-    p{font-size: medium;}
-    p{color: rgb(0, 0, 0);}
-    p{text-align: center;}
-    p{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
-    img{width: 300px;}
-    img{height: 300px;}
-    img{margin: 40px;}
+    background-color: rgb(127, 255, 127);
+   }
+    h1{
+      font-size: 60px;
+      color: blue(216, 78,216);
+      text-align: center;
+   }
+   
+    p{
+      font-size: 30px;
+      color: aquamarine(58, 8,58);
+      text-align: center;
+   }
+    img{
+      width: 300px;
+      height: 300px;
+      margin: 40px;
+      margin-left: 130px;
+   }
+   img{
+      width: 250px;
+      margin-left: 300px;
+   }
+   .cabecalho{background-color: beige;
+   display: flex;
+   }
+   .logoing{
+      width: 120px;
+      margin-left: 200px;
+   }
+   .itemlistacabecalho{
+      list-style: none;
+      text-transform: uppercase;
+      color: rgb(41, 41, 30);
+      font-size: 30px;
+      padding-left: 35px;
+   }
